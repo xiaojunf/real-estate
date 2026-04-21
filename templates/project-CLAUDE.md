@@ -1,9 +1,12 @@
 @~/.claude/skills/real-estate/KNOWLEDGE.md
 
-# real-estate — Claude Code config
+# [Project Name] — Claude Code config
+
+## Project context
+Read `project.md` for current phase, contacts, and timeline.
+Read `budget.md` for current budget status.
 
 ## Available skills
-
 - /lot-analysis — assess lot constraints and opportunities
 - /budget-plan — build and track project budget
 - /architect-brief — generate architect program brief
@@ -24,15 +27,4 @@
 - /cost-estimate — learn to estimate a scope item
 - /code-lookup — research building code requirements
 - /gc-license-path — research GC licensing path
-- /debrief — extract lessons learned after any phase
-
-## Project context
-
-Read `project.md` for current project details (lot, phase, key contacts, timeline).
-Read `budget.md` for current budget status.
-Read `KNOWLEDGE.md` for accumulated lessons learned.
-
-## Important
-
-When any skill produces a lesson learned, append it to KNOWLEDGE.md.
-When any skill updates budget figures, reflect them in budget.md.
+- /debrief — extract lessons learned after any phase (writes to shared KNOWLEDGE.md)

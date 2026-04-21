@@ -36,8 +36,11 @@ This is the most important question for the learning track.
 - What would they have negotiated, caught, or avoided?
 
 ## Output format
-Write a dated entry to KNOWLEDGE.md with:
-- Date and phase/event
+Write a dated entry to `~/.claude/skills/real-estate/KNOWLEDGE.md` with:
+- Date, project name (from project.md), and phase/event
 - 2-3 bullet lessons (what to repeat)
 - 2-3 bullet cautions (what to avoid)
 - 1 "professional GC insight" — the thing you'd know on project #2 that you didn't on project #1
+
+Always write to this fixed path regardless of which project directory you are currently in.
+This file is shared across all real-estate projects and imported by each project's CLAUDE.md.
